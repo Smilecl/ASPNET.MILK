@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebMilk", "http://localhost:28935", "{95662680-0DB4-4B18-BD3D-42B05D71C587}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_28935"
+		Debug.AspNetCompiler.PhysicalPath = "E:\VS workspace\WebMilk\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_28935\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_28935"
+		Release.AspNetCompiler.PhysicalPath = "E:\VS workspace\WebMilk\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_28935\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "E:\VS workspace\WebMilk\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMilkBLL", "E:\VS workspace\WebMilk\MyMilkBLL\MyMilkBLL.csproj", "{56CCB034-7636-4958-9784-A2CE25F6F5AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMilkDAL", "E:\VS workspace\WebMilk\MyMilkDAL\MyMilkDAL.csproj", "{0A89EF91-AE4E-45F1-B37D-44629EE6FB1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMilkModels", "E:\VS workspace\WebMilk\MyMilkModels\MyMilkModels.csproj", "{96F0E566-18C6-424F-BA11-9D1FD1E7D05F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95662680-0DB4-4B18-BD3D-42B05D71C587}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95662680-0DB4-4B18-BD3D-42B05D71C587}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95662680-0DB4-4B18-BD3D-42B05D71C587}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{95662680-0DB4-4B18-BD3D-42B05D71C587}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{56CCB034-7636-4958-9784-A2CE25F6F5AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56CCB034-7636-4958-9784-A2CE25F6F5AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56CCB034-7636-4958-9784-A2CE25F6F5AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56CCB034-7636-4958-9784-A2CE25F6F5AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A89EF91-AE4E-45F1-B37D-44629EE6FB1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A89EF91-AE4E-45F1-B37D-44629EE6FB1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A89EF91-AE4E-45F1-B37D-44629EE6FB1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A89EF91-AE4E-45F1-B37D-44629EE6FB1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96F0E566-18C6-424F-BA11-9D1FD1E7D05F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96F0E566-18C6-424F-BA11-9D1FD1E7D05F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96F0E566-18C6-424F-BA11-9D1FD1E7D05F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96F0E566-18C6-424F-BA11-9D1FD1E7D05F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

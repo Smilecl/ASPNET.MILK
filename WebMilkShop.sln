@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebMilkShop", "http://localhost:1044", "{10A95445-3558-4342-953D-B12E7556C630}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{e95314b3-914d-4fc4-8a8c-3224d5ff0b15}|MyMilkBLL.dll;{5faa75e1-0e83-4d0b-a83e-992df03b4514}|MyMilkDAL.dll;{2d1778b3-eb97-4402-b2fe-62bfdf957a86}|MyMilkModels.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_1044"
+		Debug.AspNetCompiler.PhysicalPath = "E:\大三\WebMilkShop\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_1044\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_1044"
+		Release.AspNetCompiler.PhysicalPath = "E:\大三\WebMilkShop\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_1044\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "E:\大三\WebMilkShop\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMilkBLL", "MyMilkBLL\MyMilkBLL.csproj", "{E95314B3-914D-4FC4-8A8C-3224D5FF0B15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMilkDAL", "MyMilkDAL\MyMilkDAL.csproj", "{5FAA75E1-0E83-4D0B-A83E-992DF03B4514}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMilkModels", "MyMilkModels\MyMilkModels.csproj", "{2D1778B3-EB97-4402-B2FE-62BFDF957A86}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10A95445-3558-4342-953D-B12E7556C630}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10A95445-3558-4342-953D-B12E7556C630}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10A95445-3558-4342-953D-B12E7556C630}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{10A95445-3558-4342-953D-B12E7556C630}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{E95314B3-914D-4FC4-8A8C-3224D5FF0B15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E95314B3-914D-4FC4-8A8C-3224D5FF0B15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E95314B3-914D-4FC4-8A8C-3224D5FF0B15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E95314B3-914D-4FC4-8A8C-3224D5FF0B15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FAA75E1-0E83-4D0B-A83E-992DF03B4514}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FAA75E1-0E83-4D0B-A83E-992DF03B4514}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FAA75E1-0E83-4D0B-A83E-992DF03B4514}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FAA75E1-0E83-4D0B-A83E-992DF03B4514}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D1778B3-EB97-4402-B2FE-62BFDF957A86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D1778B3-EB97-4402-B2FE-62BFDF957A86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D1778B3-EB97-4402-B2FE-62BFDF957A86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D1778B3-EB97-4402-B2FE-62BFDF957A86}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,7 @@
+C:\Users\small-c\Documents\Visual Studio 2012\Projects\WebMilkShop\MyMilkDAL\bin\Debug\MyMilkDAL.dll
+C:\Users\small-c\Documents\Visual Studio 2012\Projects\WebMilkShop\MyMilkDAL\bin\Debug\MyMilkDAL.pdb
+C:\Users\small-c\Documents\Visual Studio 2012\Projects\WebMilkShop\MyMilkDAL\bin\Debug\MyMilkModels.dll
+C:\Users\small-c\Documents\Visual Studio 2012\Projects\WebMilkShop\MyMilkDAL\bin\Debug\MyMilkModels.pdb
+C:\Users\small-c\Documents\Visual Studio 2012\Projects\WebMilkShop\MyMilkDAL\obj\Debug\MyMilkDAL.dll
+C:\Users\small-c\Documents\Visual Studio 2012\Projects\WebMilkShop\MyMilkDAL\obj\Debug\MyMilkDAL.pdb
+C:\Users\small-c\Documents\Visual Studio 2012\Projects\WebMilkShop\MyMilkDAL\obj\Debug\MyMilkDAL.csprojResolveAssemblyReference.cache

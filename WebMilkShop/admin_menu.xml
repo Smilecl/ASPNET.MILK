@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+	<siteRoot Id="root" url="" title="管理员控制面板" description="">
+		<siteMapNode url="" title="用户管理" description="">
+			<siteMapNode url="~/LoginUpdateProgress.aspx" title="用户登录" description="" />
+			<siteMapNode url="~/register.aspx" title="用户注册" description="" />
+      <siteMapNode url="~/UsersDisplay.aspx" title="用户展示" description="" />
+      <siteMapNode url="~/Pay.aspx" title="用户购买" description="" />
+      <siteMapNode url="~/Rating.aspx" title="用户评价" description="" />
+		</siteMapNode>
+		<siteMapNode url="" title="酒水类" description="">
+			<siteMapNode url="~/ListAllMilk.aspx" title="全部商品" description="" />
+      <siteMapNode url="~/MilkList.aspx" title="商品展示" description="" />
+      <siteMapNode url="~/MilkDetail.aspx" title="商品详情" description="" />
+      <siteMapNode url="~/MilkSearch.aspx" title="热销商品" description="" />
+		</siteMapNode>
+    <siteMapNode url="~/LoginOut.aspx" title="退出" description="管理员退出">
+    </siteMapNode>
+	</siteRoot>

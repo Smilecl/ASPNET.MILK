@@ -1,0 +1,329 @@
+        body {
+	        background-repeat: no-repeat;
+	        font-size:12px;
+        }
+        .anniu{font-size:12px;background:#C0FFC0;border:SeaGreen 1px solid;height:16px;width:57px;color:Black; }
+        .STYLE3 {font-family: "宋体"; font-size: 12px; font-weight: bold; }
+        .STYLE4 {
+	        font-family: "宋体";
+	        font-size: 12px;
+        }
+        #Layer1 {
+	        position:absolute;
+	        left:238px;
+	        top:97px;
+	        width:65px;
+	        height:29px;
+	        z-index:1;
+        }
+        #Layer2 {
+	        position:absolute;
+	        left:325px;
+	        top:99px;
+	        width:86px;
+	        height:23px;
+	        z-index:2;
+        }
+        #Layer3 {
+	        position:absolute;
+	        left:528px;
+	        top:100px;
+	        width:81px;
+	        height:21px;
+	        z-index:3;
+        }
+        #Layer5 {
+	        position:absolute;
+	        left:61px;
+	        top:215px;
+	        width:114px;
+	        height:394px;
+	        z-index:4;
+        }
+        a:link {
+	        color: #0328C1;
+        }
+        a:visited {
+	        color: #666666;
+        }
+        a:hover {
+	        color: #000000;
+        }
+        a:active {
+	        color: #000000;
+        }
+        #Layer6 {
+	        position:absolute;
+	        left:196px;
+	        top:195px;
+	        width:756px;
+	        height:137px;
+	        z-index:5;
+        }
+        #Layer7 {
+	        position:absolute;
+	        left:197px;
+	        top:338px;
+	        width:754px;
+	        height:15px;
+	        z-index:6;
+        }
+        #Layer8 {
+	        position:absolute;
+	        left:204px;
+	        top:370px;
+	        width:154px;
+	        height:105px;
+	        z-index:7;
+        }
+        #Layer9 {
+	        position:absolute;
+	        left:205px;
+	        top:550px;
+	        width:149px;
+	        height:63px;
+	        z-index:8;
+        }
+        #Layer10 {
+	        position:absolute;
+	        left:385px;
+	        top:371px;
+	        width:152px;
+	        height:169px;
+	        z-index:9;
+        }
+        #Layer11 {
+	        position:absolute;
+	        left:383px;
+	        top:548px;
+	        width:155px;
+	        height:81px;
+	        z-index:10;
+        }
+        #Layer12 {
+	        position:absolute;
+	        left:570px;
+	        top:371px;
+	        width:148px;
+	        height:168px;
+	        z-index:11;
+        }
+        #Layer13 {
+	        position:absolute;
+	        left:570px;
+	        top:547px;
+	        width:149px;
+	        height:85px;
+	        z-index:12;
+        }
+        #Layer14 {
+	        position:absolute;
+	        left:750px;
+	        top:370px;
+	        width:163px;
+	        height:169px;
+	        z-index:13;
+        }
+        #Layer15 {
+	        position:absolute;
+	        left:751px;
+	        top:545px;
+	        width:141px;
+	        height:89px;
+	        z-index:14;
+        }
+        #Layer16 {
+	        position:absolute;
+	        left:202px;
+	        top:621px;
+	        width:705px;
+	        height:13px;
+	        z-index:15;
+        }
+        .STYLE5 {
+	        color: #CC6600;
+	        font-weight: bold;
+	        font-size: 14px;
+	        font-family: "宋体";
+        }
+        #Layer17 {
+	        position:absolute;
+	        left:382px;
+	        top:640px;
+	        width:523px;
+	        height:65px;
+	        z-index:16;
+        }
+        #Layer18 {
+	        position:absolute;
+	        left:202px;
+	        top:642px;
+	        width:162px;
+	        height:144px;
+	        z-index:17;
+        }
+        #Layer19 {
+	        position:absolute;
+	        left:201px;
+	        top:802px;
+	        width:720px;
+	        height:18px;
+	        z-index:18;
+        }
+        #Layer20 {
+	        position:absolute;
+	        left:203px;
+	        top:825px;
+	        width:715px;
+	        height:169px;
+	        z-index:19;
+        }
+        #Layer21 {
+	        position:absolute;
+	        left:205px;
+	        top:1006px;
+	        width:727px;
+	        height:50px;
+	        z-index:20;
+        }
+        #Layer22 {
+	        position:relative;
+	        top:160px;
+	        left:20px;
+	        width:750px;
+	        height:87px;
+	        z-index:21;
+        }
+        #Layer23 {
+	        position:absolute;
+	        left:429px;
+	        top:96px;
+	        width:81px;
+	        height:27px;
+	        z-index:22;
+        }  
+        #Layer24 {
+	        position:relative;
+	        left:195px;
+	        top:163px;
+	        width:759px;
+	        height:738px;
+	        z-index:23;
+        }  
+       #Layer4 {
+	    position:absolute;
+	    left:433px;
+	    top:98px;
+	    width:72px;
+	    height:25px;
+	    z-index:2;
+    } 
+    
+    
+
+dl,dd,dt,ul,li{
+    list-style-type:none;
+    }
+.main_booklist{
+    border:#d2e4df solid 5px;
+	width:90%;
+	padding:15px;
+	font-size: 13px;
+	line-height:30px;
+	text-align:left;
+	background-color:#fff;
+	}
+.main_booklist a:link,a:hover{
+    color:#198f6f;
+	font-size:12px;
+	text-decoration:none;
+    }
+.main_booklist a:visited{
+    color:#82a79c;
+	font-size:12px;
+	text-decoration:none;
+    }
+	
+.main_booklist li{
+    padding-left:10px;
+	margin-left:-10px;
+	color:#333;
+	height:30px;
+	
+    }
+ .title_ul1{
+    font-weight:bold;
+    letter-spacing:5px;
+	height:10px;
+
+	height:30px;
+	text-decoration:none;
+	margin-left:0;
+    }
+  .title_booklist0{
+    float:left;
+    width:30%;
+	}	
+  .title_booklist1{
+    float:left;
+	width:25%;
+
+	}
+  .title_booklist2{
+    float:left;
+	margin-left;
+	width:20%;
+
+	}
+  .title_booklist3{
+    float:left;
+	width:15%;
+	
+	}
+  .title_booklist4{
+    float:left;
+	width:8%;
+
+	}
+ .title_ul2{
+    height:10px;
+
+	height:30px;
+	background-color:#ebefee;
+	text-decoration:none;
+	margin-left:0;
+   }
+ .title_ul3{
+    height:30px;
+    background-color:#fff;
+	text-decoration:none;
+	margin-left:0;
+
+   }
+   
+  .title_li2 li{
+    float:left;
+   }
+.ipt1{
+    margin-bottom:10px;
+	padding-bottom:5px;
+	height:30px;
+	border-bottom:#CCC solid 1px;
+    }
+.ipt2{
+    margin-top:10px;
+	padding-top:10px;
+	height:30px;
+	border-top:#CCC solid 1px;
+    }  
+
+.STYLE4 {	font-family: "宋体";
+	font-size: 12px;
+}
+#Layer26 {	position:absolute;
+	left:597px;
+	top:868px;
+	width:301px;
+	height:41px;
+	z-index:25;
+}

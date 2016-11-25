@@ -1,0 +1,118 @@
+<%@ Master Language="C#" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<script runat="server">
+
+    protected void Page_Load(object sender, EventArgs e)
+    {
+
+    }
+
+</script>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title></title>
+    <style type="text/css">
+        
+        body {
+	        background-image: url(../images/9f16d841f9a311c8a274d1742f190656.jpg);
+            background-repeat:no-repeat;
+        }
+        #Layer5 {
+	        
+	        left:22px;
+	        top:87px;
+	        width:144px;
+	        height:21px;
+	        z-index:1;
+        }
+        .STYLE1 {
+	        font-family: "宋体";
+	        font-size: 12px;
+	        color: #FFFFFF;
+        }
+        a:link {
+	        color: #000000;
+        }
+        a:visited {
+	        color: #000099;
+        }
+        a:hover {
+	        color: #000000;
+        }
+        a:active {
+	        color: #000000;
+        }
+        #Layer6 {
+	        position:absolute;
+	        left:22px;
+	        top:120px;
+	        width:145px;
+	        height:281px;
+	        z-index:2;
+        }
+        #Layer8 {
+	        position:absolute;
+	        left:197px;
+	        top:53px;
+	        width:520px;
+	        height:16px;
+	        z-index:4;
+        }
+        .STYLE3 {font-family: "宋体"; font-size: 12px; font-weight: bold; }
+        #Layer19 {
+	        position:absolute;
+	        left:7px;
+	        top:9px;
+	        width:156px;
+	        height:59px;
+	        z-index:14;
+        }
+        #Layer20 {
+          position:absolute;
+	        left:210px;
+	        top:113px;
+	        width:681px;
+	        height:606px;
+	        z-index:15;
+        }
+       
+        
+   </style>
+</head>
+<body>
+<form runat="server">
+    <div id="Layer5">
+      <div align="right" class="STYLE1">
+      </div>
+    <div id="Layer6" style="font-size:small">
+      <asp:TreeView ID="tvAdmin" runat="server" DataSourceID="xdsAdmin" ImageSet="Arrows">      
+       <DataBindings>
+            <asp:TreeNodeBinding DataMember="siteMapNode" NavigateUrlField="url" TextField="title" />
+           <asp:TreeNodeBinding DataMember="siteRoot" TextField="title" />
+        </DataBindings>      
+          <ParentNodeStyle Font-Bold="False" />
+          <HoverNodeStyle Font-Underline="True" ForeColor="#5555DD" />
+          <SelectedNodeStyle Font-Underline="True" HorizontalPadding="0px"
+              VerticalPadding="0px" ForeColor="#5555DD" />
+          <NodeStyle Font-Names="Verdana" Font-Size="8pt" ForeColor="Black" HorizontalPadding="5px"
+              NodeSpacing="0px" VerticalPadding="0px" />
+        </asp:TreeView>
+    </div>
+    <div id="Layer20">
+    <asp:contentplaceholder id="cphAdmin" runat="server">
+        </asp:contentplaceholder>
+   </div>
+    <div id="Layer8">
+      <div class="STYLE3" id="__breadcrumb">
+                您现在的位置： <asp:SiteMapPath ID="smpRoad" runat="server">
+                                    <PathSeparatorStyle BackColor="White" BorderColor="White" />
+       </asp:SiteMapPath></div>
+    </div>
+        <asp:XmlDataSource ID="xdsAdmin" runat="server" DataFile="~/admin_menu.xml" ></asp:XmlDataSource>
+  </form>
+    </body>
+</html>
+

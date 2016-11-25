@@ -1,0 +1,5 @@
+C:\Users\small-c\Documents\Visual Studio 2012\Projects\WebMilkShop\MyMilkModels\bin\Debug\MyMilkModels.dll
+C:\Users\small-c\Documents\Visual Studio 2012\Projects\WebMilkShop\MyMilkModels\bin\Debug\MyMilkModels.pdb
+C:\Users\small-c\Documents\Visual Studio 2012\Projects\WebMilkShop\MyMilkModels\obj\Debug\MyMilkModels.dll
+C:\Users\small-c\Documents\Visual Studio 2012\Projects\WebMilkShop\MyMilkModels\obj\Debug\MyMilkModels.pdb
+C:\Users\small-c\Documents\Visual Studio 2012\Projects\WebMilkShop\MyMilkModels\obj\Debug\MyMilkModels.csprojResolveAssemblyReference.cache
